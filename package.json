@@ -1,0 +1,32 @@
+{
+  "name": "nixt-yargs-demo",
+  "version": "1.0.0",
+  "description": "Trying out yargs, nixt testing",
+  "private": true,
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --test",
+    "coverage": "c8 node --test"
+  },
+  "keywords": [
+    "nixt",
+    "yargs",
+    "demo"
+  ],
+  "author": "Oscar Funes <npm@oscarfunes.email>",
+  "license": "MIT",
+  "dependencies": {
+    "yargs": "^17.7.2"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.9.1",
+    "c8": "^10.1.2",
+    "eslint": "^9.9.1",
+    "globals": "^15.9.0",
+    "nixt": "^0.5.1"
+  },
+  "volta": {
+    "node": "20.17.0"
+  }
+}
